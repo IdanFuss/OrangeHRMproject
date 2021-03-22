@@ -1,0 +1,9 @@
+pngUnder,png,valid
+pngMoreThen,png,invalid
+pngEquals,png,valid
+jpgUnder,jpg,valid
+jpgMoreThen,jpg,invalid
+jpgEquals,jpg,valid
+gifUnder,gif,valid
+gifMoreThen,gif,invalid
+gifEquals,gif,valid

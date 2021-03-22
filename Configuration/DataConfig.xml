@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+    <!-- Timeout -->
+    <Timeout>5</Timeout>
+
+
+    <PlatformName>web</PlatformName>
+    <BrowserName>Chrome</BrowserName>
+    <URL>https://opensource-demo.orangehrmlive.com/</URL>
+    <ImageRepo>C:\\automation\\test-automation\\OrangeHRMproject\\imgRepository\\</ImageRepo>
+
+    <!-- Data driven testing -->
+    <DDTLoginFile>./DDTFiles/login.csv</DDTLoginFile>
+    <DDTUploadMyInfoPhoto>./DDTFiles/uploadMyInfoPic.csv</DDTUploadMyInfoPhoto>
+
+    <!-- Tests data - Login -->
+    <LoginUserName>Admin</LoginUserName>
+    <LoginPassword>admin123</LoginPassword>
+
+    <!-- Tests data - Personal details -->
+    <FirstName>tutu</FirstName>
+    <MiddleName>titi</MiddleName>
+    <LastName>tata</LastName>
+    <EmployeeId>123456</EmployeeId>
+    <OtherId>78910</OtherId>
+    <DriversLicenseNo>111213</DriversLicenseNo>
+    <LicenseExpiryDate>12,1,2020</LicenseExpiryDate>
+    <SSNNo>141516</SSNNo>
+    <SINNo>171819</SINNo>
+    <MaritalStatus>Single</MaritalStatus>
+    <Nationality>Austrian</Nationality>
+    <DateOfBirth>15,10,1975</DateOfBirth>
+    <NickName>tututu</NickName>
+    <MilitaryService>sniper</MilitaryService>
+</Enviroment>
